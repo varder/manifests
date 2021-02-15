@@ -8,13 +8,15 @@
     <default remote="github" sync-j="10" sync-c="true" />
 
     <project name="renesas-rcar/meta-renesas" path="meta-renesas" revision="c0a59569d52e32c26de083597308e7bc189675dd" />
-    <project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" upstream="dunfell" revision="92cd3467502bd27b98a76862ca6525ce425a8479" />
+
     <project remote="yoctoproject" name="poky" path="poky" revision="424296bf9bb4bae27febf91bce0118df09ce5fa1" />
+    <project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" upstream="dunfell" revision="92cd3467502bd27b98a76862ca6525ce425a8479" />
+    <project remote="yoctoproject" name="meta-arm" path="meta-arm" upstream="dunfell" revision="f7c5e7d5094f65d105d9d580ba59527c25fb0d0f" />
+    <project remote="yoctoproject" name="meta-selinux" path="meta-selinux" upstream="dunfell" revision="7af62c91d7d00a260cf28e7908955539304d100d" />
+
     <project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="f2d02cb71eaff8eb285a1997b30be52486c160ae" />
 
-    <project remote="linaro" name="openembedded/meta-linaro" path="meta-linaro" upstream="dunfell" revision="10af9133aeb28b3487fd227c900c11b786505699" />
-    <project remote="yoctoproject" name="meta-selinux" path="meta-selinux" upstream="dunfell" revision="7af62c91d7d00a260cf28e7908955539304d100d" />
     <project name="kraj/meta-clang" path="meta-clang" upstream="dunfell" revision="e63d6f9abba5348e2183089d6ef5ea384d7ae8d8" />
-
-    <project name="CogentEmbedded/meta-rcar" path="meta-rcar" revision="74a93ed0a5c0c037af61fafa21c52a2c920b1957" upstream="dunfell-Yocto-v4.1.0" />
+    
+    <!-- <project name="CogentEmbedded/meta-rcar" path="meta-rcar" revision="74a93ed0a5c0c037af61fafa21c52a2c920b1957" upstream="dunfell-Yocto-v4.1.0" /> -->
 </manifest>
